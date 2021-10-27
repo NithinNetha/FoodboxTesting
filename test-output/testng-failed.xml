@@ -3,16 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.fbtest.FoodboxLoginAddToCart">
+      <class name="com.fbtest.FoodboxAdminOperations">
         <methods>
-          <include name="paymentGateway"/>
-          <include name="orderPrint"/>
-          <include name="openBrowser"/>
-          <include name="CartOperations"/>
+          <include name="AdmindeleteItem"/>
           <include name="testSetup"/>
-          <include name="AddToCart"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.fbtest.FoodboxLoginAddToCart -->
+      </class> <!-- com.fbtest.FoodboxAdminOperations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
